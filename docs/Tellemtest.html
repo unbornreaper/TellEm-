@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TellEm! Advertisement Page</title>
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        .header {
+            background: linear-gradient(135deg, #1f1f1f, #434343);
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .slider {
+            width: 70%;
+            max-width: 900px;
+            margin: 30px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .slide img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .slick-prev, .slick-next {
+            font-size: 24px;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            line-height: 36px;
+            text-align: center;
+        }
+        .slick-prev {
+            left: 15px;
+        }
+        .slick-next {
+            right: 15px;
+        }
+        .slick-dots {
+            bottom: 15px;
+        }
+        .slick-dots li button:before {
+            color: #fff;
+            font-size: 12px;
+        }
+        .cta {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .cta a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        .cta a:hover {
+            color: #ffcc00;
+        }
+        .pricing {
+            text-align: center;
+            margin: 40px auto;
+            max-width: 600px;
+        }
+        .pricing h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .pricing table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .pricing th, .pricing td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .pricing th {
+            background-color: #007BFF;
+            color: #fff;
+        }
+        .pricing tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .pricing .total {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        .pricing .payment-link {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #007BFF;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .pricing .payment-link:hover {
+            background-color: #0056b3;
+        }
+        .pricing .payment-link img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to TellEm!</h1>
+        <p>Showcasing top businesses, one slide at a time</p>
+    </div>
+
+    <div class="slider">
+        <div class="slide">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.chcNirurpSCEKFoMDzDBaAHaE7&pid=Api&P=0&h=180" alt="Company 1">
+            <div class="cta"><a href="#">Learn More</a></div>
+        </div>
+        <div class="slide">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.yLf7kQVaLpxqCZX1VRHw-wHaEK&pid=Api&P=0&h=180" alt="Company 2">
+            <div class="cta"><a href="#">Learn More</a></div>
+        </div>
+        <div class="slide">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.2Nayik-4t0WAJ5H-iYbfKQHaFP&pid=Api&P=0&h=180" alt="Company 3">
+            <div class="cta"><a href="#">Learn More</a></div>
+        </div>
+        <div class="slide">
+            <img src="https://via.placeholder.com/1200x600?text=Company+4" alt="Company 4">
+            <div class="cta"><a href="#">Learn More</a></div>
+        </div>
+        <div class="slide">
+            <img src="https://via.placeholder.com/1200x600?text=Company+5" alt="Company 5">
+            <div class="cta"><a href="#">Learn More</a></div>
+        </div>
+    </div>
+
+    <div class="pricing">
+        <h2>Choose Your Advertising Plan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Days</th>
+                    <th>Price</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1 Day</td>
+                    <td>$30</td>
+                    <td>
+                        <a href="https://cash.app/$WBWho?amount=30" class="payment-link">Pay with Cash App</a>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=unbornreaper5@gmail.com&amount=30&currency_code=USD" class="payment-link">Pay with PayPal</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2 Days</td>
+                    <td>$60</td>
+                    <td>
+                        <a href="https://cash.app/$WBWho?amount=60" class="payment-link">Pay with Cash App</a>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=unbornreaper5@gmail.com&amount=60&currency_code=USD" class="payment-link">Pay with PayPal</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3 Days</td>
+                    <td>$90</td>
+                    <td>
+                        <a href="https://cash.app/$WBWho?amount=90" class="payment-link">Pay with Cash App</a>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=unbornreaper5@gmail.com&amount=90&currency_code=USD" class="payment-link">Pay with PayPal</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4 Days</td>
+                    <td>$120</td>
+                    <td>
+                        <a href="https://cash.app/$WBWho?amount=120" class="payment-link">Pay with Cash App</a>
+                        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=unbornreaper5@gmail.com&amount=120&currency_code=USD" class="payment-link">Pay with PayPal</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Slick Slider JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay: true,
+                dots: true,
+                arrows: true,
+                autoplaySpeed: 3000
+            });
+        });
+    </script>
+</body>
+</html>
